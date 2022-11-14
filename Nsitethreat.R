@@ -12,8 +12,6 @@ library(caret)
 library(rlist)
 library(Metrics)
 
-setwd("D:\\Projetos\\Mamiferosxfogo")
-
 filename = "NSite_threat"
 
 df = read.csv("variaveis_mamiferos.csv", dec = ",", sep = ";")
